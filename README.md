@@ -1,59 +1,49 @@
-# Data Analytics Projects for Superstore
+# 📦 Data Analytics Portfolio
 
-This repository contains two separate projects aimed at supporting Superstore’s business and marketing needs using different tools and methods.
-
----
-
-## Project 1: RFM Analysis
-
-**Tool:** Python (Pandas, Jupyter Notebooks)  
-**Purpose:**  
-Superstore is a global retail company with a large customer base. During the Christmas and New Year season, Marketing wants to run targeted campaigns to reward loyal customers and identify potential loyal customers.  
-Due to large data volume, manual Excel-based segmentation is no longer feasible. This project implements RFM (Recency, Frequency, Monetary) customer segmentation using Python for scalable analysis.
-
-**Contents:**  
-- `notebooks/` — Jupyter notebooks for RFM calculation and segmentation  
-- `scripts/` — Python scripts for processing data  
-- `data/` — Sample or processed datasets (CSV)
-
-**How to use:**  
-1. Install required packages (`pip install -r requirements.txt` if available)  
-2. Run the notebooks to perform segmentation  
-3. Customize and extend based on business needs
+Chào mừng đến với danh mục dự án phân tích dữ liệu của tôi. Repo này bao gồm 3 dự án thực tiễn được thực hiện bằng SQL, Python và Power BI, mỗi dự án tập trung vào phân tích dữ liệu từ các lĩnh vực khác nhau như thương mại điện tử, hành vi khách hàng và bán lẻ.
 
 ---
 
-## Project 2: Superstore Sales Dashboard
+## 📁 Danh sách Dự Án
 
-**Tool:** Power BI Desktop (.pbix)  
-**Purpose:**  
-Senior management requires a dashboard to monitor sales performance and support strategic decisions on market expansion and product portfolio optimization.
+### 1. 🛒 E-commerce SQL Analysis
 
-**Contents:**  
-- `reports/` — Power BI dashboard files (`.pbix`)  
-- `data/` — Sample sales datasets (CSV/Excel)
+- **Công cụ**: BigQuery (Google Analytics Sample Dataset)
+- **Ngôn ngữ**: SQL
+- **Mục tiêu**:
+  - Phân tích lượng truy cập, chuyển đổi, doanh thu theo tháng/tuần.
+  - Tính tỷ lệ bounce rate theo nguồn traffic.
+  - So sánh hành vi người dùng mua và không mua hàng.
+- **Tên file**: Ecommerce Project_Phạm Thị Thanh Hải.sql
+- **File dữ liệu**: Dữ liệu public từ `bigquery-public-data.google_analytics_sample`
+- **Kết quả chính**: Truy vấn SQL trả lời các câu hỏi kinh doanh thực tế.
 
-**How to use:**  
-1. Open `.pbix` files in Power BI Desktop  
-2. Refresh data and explore interactive visuals  
-3. Utilize insights to guide business strategies
+### 2. 👥 RFM Analysis Project
 
+- **Công cụ**: Python (Pandas, Matplotlib, Seaborn)
+- **Ngôn ngữ**: Python
+- **Mục tiêu**:
+  - Phân khúc khách hàng theo mô hình RFM (Recency, Frequency, Monetary).
+  - Xác định nhóm khách hàng trung thành và có giá trị cao.
+- **Tên file**: RFM analysis project_Phạm Thị Thanh Hải.ipynb
+- **Dữ liệu**: File CSV chứa thông tin giao dịch khách hàng
 ---
-## Data Sources
 
-- **RFM Analysis:** Customer transaction data exported from Superstore’s CRM database (CSV files provided in `rfm_analysis/data/`)  
-- **Superstore Sales Dashboard:** Sales data from company’s ERP system, aggregated monthly (sample data included in `superstore_sales_dashboard/data/`)  
+### 3. 🏬 Superstore Sales Dashboard
 
-## Repository Structure
-/
-├── rfm_analysis/
-│   ├── notebooks/
-│   ├── scripts/
-│   ├── data/
-│   └── README.md
-├── superstore_sales_dashboard/
-│   ├── reports/
-│   ├── data/
-│   └── README.md
-└── README.md
+- **Công cụ**: Power BI
+- **Ngôn ngữ**: DAX / Power Query (M)
+- **Mục tiêu**:
+  - Trực quan hóa doanh số bán hàng, lợi nhuận theo khu vực, danh mục sản phẩm, thời gian.
+  - Phân tích hiệu quả vận hành (shipping delay, segment, etc.)
+- **Tên file**: Superstore sales Project_Phạm Thị Thanh Hải_PBI.pbix
+- **Dữ liệu**: Superstore Sales Dataset (`superstore_sales.csv`)
+
+## 🧠 Mục Tiêu Chung
+
+Mỗi dự án được thiết kế để thể hiện khả năng:
+- Khai phá và làm sạch dữ liệu.
+- Trực quan hóa dữ liệu và tạo insight.
+- Trình bày kỹ thuật phân tích phù hợp theo ngữ cảnh.
+
 
