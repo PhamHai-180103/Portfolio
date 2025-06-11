@@ -26,7 +26,7 @@ Chào mừng đến với danh mục dự án phân tích dữ liệu của tôi
   - Phân khúc khách hàng theo mô hình RFM (Recency, Frequency, Monetary).
   - Xác định nhóm khách hàng trung thành và có giá trị cao.
 - **Tên file**: RFM analysis project_Phạm Thị Thanh Hải.ipynb
-- **Dữ liệu**: File CSV chứa thông tin giao dịch khách hàng
+- **Dữ liệu**: RFM Dataset
 ---
 
 ### 3. 🏬 Superstore Sales Dashboard
@@ -37,7 +37,7 @@ Chào mừng đến với danh mục dự án phân tích dữ liệu của tôi
   - Trực quan hóa doanh số bán hàng, lợi nhuận theo khu vực, danh mục sản phẩm, thời gian.
   - Phân tích hiệu quả vận hành (shipping delay, segment, etc.)
 - **Tên file**: Superstore sales Project_Phạm Thị Thanh Hải_PBI.pbix
-- **Dữ liệu**: Superstore Sales Dataset (`superstore_sales.csv`)
+- **Dữ liệu**: Superstore sales dataset 
 
 ## 🧠 Mục Tiêu Chung
 
